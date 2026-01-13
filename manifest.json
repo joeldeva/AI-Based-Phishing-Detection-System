@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "AI Phishing Detector",
+  "version": "1.0",
+  "description": "Checks the current website URL using local FastAPI phishing detector.",
+  "permissions": ["activeTab", "tabs"],
+  "host_permissions": ["http://127.0.0.1:8000/*"],
+  "action": {
+    "default_title": "Phishing Check",
+    "default_popup": "popup.html"
+  }
+}
